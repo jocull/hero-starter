@@ -1,5 +1,5 @@
 
-//This is a copy of safe diamond miner for now
+//My custom hero brain!
 var move = function (gameData, helpers) {
     var myHero = gameData.activeHero;
 
