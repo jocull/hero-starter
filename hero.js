@@ -1,6 +1,6 @@
 
 //This is a copy of safe diamond miner for now
-var strategy = function (gameData, helpers) {
+var move = function (gameData, helpers) {
     var myHero = gameData.activeHero;
 
     //Get stats on the nearest health well
@@ -25,4 +25,6 @@ var strategy = function (gameData, helpers) {
 };
 
 // Export the move function here
-module.exports = strategy;
+if (typeof(module) !== 'undefined'){
+    module.exports = move;
+}
